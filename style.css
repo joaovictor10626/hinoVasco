@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/* {} ' '*/
+
+
+
+html, body{
+    background-color: dark;
+    font-family: Georgia;
+    min-height: 100vh;
+    font-size: 1.1em;
+    
+ }
+
+ header{ 
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+ }
+
+ header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 2em;
+   
+  }
+
+  section.normal{ 
+    background-color: white;
+  }
+
+ section.imagem{
+    font-size: 2em;
+    box-shadow: inset 6px 6px 13px 0px red;
+    background-attachment: fixed;
+     }
+    
+   
+   
+
+   section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    }
+
+    header > p {
+        padding-bottom: 50px;
+     }
+
+     section#img01{
+background-image: url('imagens/img01.jpg');
+ background-repeat: no-repeat;  
+  background-size: cover;        
+  background-position: center; 
+
+     }
+
+     section#img02{
+background-image: url('imagens/img02.jpg');
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-repeat: no-repeat;  
+  background-size: cover;        
+  background-position: center; 
+     }
+
+     section#img03{
+        background-image: url(imagens/img03.jpg);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-repeat: no-repeat;  
+  background-size: cover;        
+  background-position: center; 
+     }
+     
+
+
+
+     section#img04{
+      background-image: url(imagens/img04.jpg);
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-repeat: no-repeat;  
+  background-size: cover;        
+  background-position: center; 
+         
+     }
+
